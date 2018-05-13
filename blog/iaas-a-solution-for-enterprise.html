@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<!-- Mirrored from www.mivocloud.com/blog/iaas-a-solution-for-enterprise by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 May 2018 22:48:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css">
+    <link href="/fonts/fonts.css" rel="stylesheet" type="text/css"> -->
+
+    <link rel="stylesheet" media="screen" href="../assets/themes/mivocloud/assets/css/main-e9e22fa35743aaed50bb7ef0286b0ced7b80817f76b5905d22eb64df2ac87ec0.css" />
+    <script src="../assets/themes/mivocloud/assets/js/main-d71ed81af5301cf289f3a16dd891c06410aa1523216b44dd44f527e396348129.js"></script>
+
+        <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="p44Ri0rxg8UGNTZvbFYScdWpZZmz6Hsc0fLhPctTBjAlKQQ++zKj/2jdrPep5EOqEoL3els8oMhyjF2C28jfyg==" />
+<title>MivoCloud - IaaS. a Solution for Enterprise.</title>
+<link rel="icon" href="../media/1/theme/favicon.png" type="image/x-icon">
+<meta name="description" content="Internet Tehnologies have entered practically in every part of our life in the last years. This result is due to the fast progress of hardware and software tehnologies and the second is the big pos...">
+<meta name="keywords" content="cloud hosting, cloud server, cloud computing, cloud infrastructure, infrastructure as a service, iaas, iaas provider, cloud provider, virtual cloud server, virtual server, vps, dedicated server, colocation, ssd cloud, ssd vps, ssd hosting, managed server,">
+<link rel="alternate" type="application/rss+xml" href="../rss">
+<link rel="alternate" href="../index.html" hreflang="en">
+<link rel="alternate" href="../md.html" hreflang="md">
+<link rel="alternate" href="../ro.html" hreflang="ro">
+<link rel="alternate" href="../ru.html" hreflang="ru">
+<meta property="og:title" content="MivoCloud - IaaS. a Solution for Enterprise.">
+<meta property="og:description" content="Internet Tehnologies have entered practically in every part of our life in the last years. This result is due to the fast progress of hardware and software tehnologies and the second is the big pos...">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.mivocloud.com/blog/iaas-a-solution-for-enterprise">
+<meta property="og:image" content="https://www.mivocloud.com/media/1/blog/2016/04/13/07.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MivoCloud - IaaS. a Solution for Enterprise.">
+<meta name="twitter:description" content="Internet Tehnologies have entered practically in every part of our life in the last years. This result is due to the fast progress of hardware and software tehnologies and the second is the big pos...">
+<meta name="twitter:url" content="https://www.mivocloud.com/blog/iaas-a-solution-for-enterprise">
+<meta name="twitter:image" content="https://www.mivocloud.com/media/1/blog/2016/04/13/07.png">
+<meta name="twitter:site" content="https://www.mivocloud.com">
+<meta name="twitter:creator" content="https://www.mivocloud.com">
+<meta name="twitter:domain" content="www.mivocloud.com">
+<meta name="author" content="MivoCloud">
+<meta name="image" content="https://www.mivocloud.com/media/1/blog/2016/04/13/07.png">
+<meta name="url" content="https://www.mivocloud.com/blog/iaas-a-solution-for-enterprise">
+<script>var ROOT_URL = '../index.html'; var LANGUAGE = 'en'; </script><script>window.GAID='UA-72766946-1';</script>
+
+<script src="../assets/plugins/camaleon_google_analytic/google_analytics-51b12fd95caa31d18bb4404eb6da6add3485cc756d1660c435f314b8c4ce77b1.js"></script>
+
+
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+</head>
+<body class="stretched sticky-responsive-menu no-transition" >
+
+    
+
+
+
+
+    <!-- BEGIN Analytics -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="http://analytics.mivocloud.com/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <noscript><p><img src="http://analytics.mivocloud.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+    <!-- END Analytics -->
+
+    <!-- BEGIN Facebook JavaScript SDK -->
+    <!-- <div id="fb-root"></div> -->
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "../../connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- END Facebook JavaScript SDK -->
+
+    <!-- BEGIN Twitter for Websites Widget -->
+    <script>
+        window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "../../platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+    
+            t._e = [];
+            t.ready = function(f) {
+                t._e.push(f);
+            };
+    
+            return t;
+        }(document, "script", "twitter-wjs"));
+    </script>
+    <!-- END Twitter for Websites Widget -->
+
+    <!-- BEGIN Document Wrapper -->
+    <div id="wrapper" class="clearfix">
+
+        <!-- BEGIN Header -->
+        <header id="header" class="header dark">
+
+            <div id="header-wrap">
+
+                <div class="container clearfix">
+
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                    <!-- BEGIN Logo -->
+                    <div id="logo">
+                        <a href="../index.html" class="standard-logo" data-dark-logo="/assets/themes/mivocloud/assets/images/logo-dark-12fdc1cb98bb554877d59ced964f1a53e965c2dbca500b51563063f50eb02aa4.png"><img alt="MivoCloud" src="../assets/themes/mivocloud/assets/images/logo-dark-12fdc1cb98bb554877d59ced964f1a53e965c2dbca500b51563063f50eb02aa4.png" /></a>
+                        <a href="../index.html" class="retina-logo" data-dark-logo="/assets/themes/mivocloud/assets/images/logo-dark@2x-cc455b89ae208c189729172fce478541f5a6f1148afaf04e53bc04e92f310605.png"><img alt="MivoCloud" src="../assets/themes/mivocloud/assets/images/logo-dark%402x-cc455b89ae208c189729172fce478541f5a6f1148afaf04e53bc04e92f310605.png" /></a>
+                    </div>
+                    <!-- END Logo -->
+
+                    <!-- BEGIN Primary Navigation -->
+                    <nav id="primary-menu" class="style-4">
+                        <ul>
+                        
+                                <li>
+                                        <a href="../vps.html">VPS / VDS</a>
+                                </li>
+                                <li>
+                                        <a href="../dedicated-servers.html">Dedicated</a>
+                                </li>
+                                <li>
+                                        <a href="#">IaaS</a>
+                                        <ul>
+                                                <li><a href="../features.html">Features</a></li>
+                                                <li><a href="../pricing.html">Pricing</a></li>
+                                        </ul>
+                                </li>
+                                <li>
+                                        <a href="../web-hosting.html">Web</a>
+                                </li>
+                                <li>
+                                        <a href="#">Resources</a>
+                                        <ul>
+                                                <li><a href="../server-management.html">Server Management</a></li>
+                                                <li><a href="../contact-us.html">Contact Us</a></li>
+                                                <li><a href="../blog.html">Blog</a></li>
+                                                <li><a href="../careers.html">Careers</a></li>
+                                        </ul>
+                                </li>
+                                <li>
+                                        <a href="#" style="background-color: #000000;">Control Panel</a>
+                                        <ul>
+                                                <li><a href="https://my.mivocloud.com/">IaaS / Cloud</a></li>
+                                                <li><a href="https://clients.mivocloud.com/clientarea.php">VPS / Dedicated / Hosting</a></li>
+                                        </ul>
+                                </li>
+
+                        </ul>
+
+                        <ul><li><a href='#'>en</a><ul><li> <a href='../md/blog/iaas-a-solution-for-enterprise.html'>md</a> </li><li> <a href='../ro/blog/iaas-a-solution-for-enterprise.html'>ro</a> </li><li> <a href='../ru/blog/iaas-a-solution-for-enterprise.html'>ru</a> </li></ul></li></ul>
+                    </nav>
+                    <!-- END Primary Navigation -->
+
+                </div>
+
+            </div>
+
+        </header>
+        <!-- END Header -->
+
+        <!-- BEGIN Content -->
+                    <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('../media/1/theme/slider_bg.png'); padding: 60px 0;" data-stellar-background-ratio="0.3">
+
+    <div class="container clearfix">
+        <h1>Blog</h1>
+        <span>News. Articles. Amazing Offers.</span>              
+    </div>
+
+</section>
+
+
+<section id="content">
+            
+
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+    
+            <!-- Post Content
+            ============================================= -->
+            <div class="postcontent nobottommargin clearfix">
+    
+                <div class="single-post nobottommargin">
+    
+                    <!-- Single Post
+                    ============================================= -->
+                    <div class="entry clearfix">
+
+                        <!-- Entry Title
+                        ============================================= -->
+                        <div class="entry-title">
+                            <h2>IaaS. a Solution for Enterprise.</h2>
+                        </div><!-- .entry-title end -->
+
+                        <!-- Entry Meta
+                        ============================================= -->
+                        <ul class="entry-meta clearfix">
+                            <li><i class="icon-calendar3"></i>April 13, 2016 00:35</li>
+                            <li><i class="icon-user"></i>Maxim Popov</li>
+                            <li>
+                                <i class="icon-folder-open"></i>
+                                <a href="../category/6-general.html">General</a>
+                            </li>
+                        </ul><!-- .entry-meta end -->
+
+                        <div class="entry-image">
+                            <a href="iaas-a-solution-for-enterprise.html"><img src="../media/1/blog/2016/04/13/07.png" alt="07" /></a>
+                        </div>
+    
+    
+                        <!-- Entry Content
+                        ============================================= -->
+                        <div class="entry-content notopmargin">
+    
+                                <p>Internet Tehnologies have entered practically in every part of our life in the last years. This result is due to the fast progress of hardware and software tehnologies and the second is the big positive impact on our everyday life, making it more simple and enjoyable. Many companies and the business in general also profits from this trend. Here already is not about fun but real business world where like in sports every second counts. At least a company without a website risks to break the relationship with their customers. But a website is a drop from an ocean. Much more important for a business are costs saving and the processes optimization. In this sense companies appeal to outsource services for their&nbsp;<a href="http://www.cisco.com/c/en/us/solutions/collateral/service-provider/global-cloud-index-gci/Cloud_Index_White_Paper.html" target="_blank">computing infrastructure</a> because it allows companies to focus on their main mission and business instead of investing time and money for creating and managing the infrastructure.</p>
+<p><img src="../media/1/blog/2016/04/13/02.jpg" alt="Global Cloud Workloads Surpass Traditional Workloads" width="638" height="359" /></p>
+<p><br />More and more companies adopt, are planning to adopt or consider adoption of <a href="http://www.cisco.com/c/en/us/solutions/collateral/service-provider/global-cloud-index-gci/Cloud_Index_White_Paper.html" target="_blank">IaaS</a> because they start to understand the benefits of infrastructure as a service, and the main are: costs saving, flexibility, scalability and efficiency.</p>
+<p><img src="../media/1/blog/2016/04/13/03.jpg" alt="Global Public Cloud Workloads" width="638" height="359" /></p>
+<h5><a href="http://www.mazikglobal.com/blog/cloud-computing-stack-saas-paas-iaas/">Cloud Computing</a>. What is IaaS?</h5>
+<p>Cloud Computing is a relatively a new technology in computing. It represents a distributed asambley of computing services. This concept consits of three branches: IaaS (Infrastructure as a Service), PaaS (Platform as a Service) and SaaS (Software as a Service). And for now we choosed to describe the Infrastructure as a Service model (IaaS).</p>
+<p><img src="../media/1/blog/2016/04/13/08.png" alt="Cloud Infrastructure" width="1024" height="927" /></p>
+<p>IaaS (Infrastructure as a Service) is the technology with wich many components of a physical infrastructure like servers, storage, network and software are provided as virtual service. That means everyone can build it's own Virtual Data Center in just seconds with no need of investing a lot of time and money in buying hardware, software, racks, hire IT staff and so on. But the most important advantage of the IaaS technology is the scalability, the posibility to adjust your resources with your business needs even every hour, cause the most important IaaS Providers have an hourly billing system.</p>
+<p><img src="../media/1/blog/2016/04/13/01.png" alt="IaaS PaaS SaaS" width="611" height="326" /></p>
+<h5>IaaS, a Solution for Enterprise.</h5>
+<p>So the reason why organizations are&nbsp;<a href="http://www.rightscale.com/blog/cloud-industry-insights/cloud-computing-trends-2015-state-cloud-survey">using</a> &nbsp;IaaS is that it ensures better results minimizing the costs and the time they are achieved. In the last decade top managers changed seriously the way they manage the enterprise business.</p>
+<p><img src="../media/1/blog/2016/04/13/06.jpg" alt="Cloud Maturity" width="638" height="399" /></p>
+<p>The concept of IaaS includes some valuable features and with the increasing popularity of this Service a lot of small hosting companies took over the notion "Cloud" for the description of their Services while their Services are far away from IaaS and Cloud Servers. It is like telling that you sell airplanes but they could not fly. For this reason users should know the difference of a Cloud Server from a VPS (Virtual Private Server) and here are the main features:</p>
+<ul>
+<li>&nbsp;the Resources are provided as a service. The user is not responsible for the hardware, for it's attrition, for the network connections, internet connection, electricity and other Data Center services like air conditioning, security and professional staff;</li>
+<li>&nbsp;the Scalability. The user can upscale or downscale the resources whenever he needs. This is a very important feature that has it's advantages even more nowadays when a lot of startups that could not predict the popularity of their product/service or other companies that tests their products;</li>
+<li>&nbsp;pay-as-you-go billing. The user is billed only for the resources he used. Most important IaaS Providers have hourly billing cycles and the user pays only the time they used the resources. This is also a very important feature when every company calculates a lot of indicators trying to increase the productivity and to reduce the costs and the budgets;</li>
+</ul>
+<h5>Why Companies Migrate to IaaS?</h5>
+<p>More and more companies are finding infrastructure as a service to be an effective instrument to reach their business goals and this is due to that it is highly&nbsp;<a href="http://www.rightscale.com/blog/cloud-industry-insights/cloud-computing-trends-2015-state-cloud-survey">flexible and scalable</a> for different business situations:</p>
+<p><img src="../media/1/blog/2016/04/13/05.png" alt="Cloud Benefits 2015 vs 2014" width="1158" height="603" /></p>
+<ul>
+<li>&nbsp;Organizations with seasonal or cyclical business periods may profit from this type of service as their requirements for resources may differ from a period to another, like from a month to another, as well as from an hour to another. For example News Sites or Blog Sites in case of Breaking News or some interesting posts that will drive much traffic on the site only for a small period of time. So enterprises can reduce their costs during inactive periods and benefit of high capacity resources during active periods.</li>
+<li>&nbsp;Also during development or testing a new product/service, a new business niche or a new marketing strategy are taking places big usage spikes so that infrastructure as a service is the best-suite instrument in this cases.</li>
+<li>&nbsp;Migrating the CRM (Customer Relationship Management) application to IaaS platform could be done easily without having to add new hardware and storage resources and minimizing the workloads for the IT department that will execute this operation and manage it after.</li>
+<li>&nbsp;Startups that could not predict the demand of their product/service or simply do not have financial resources to buy hardware and build their own infrastructure. With the infrastructure in the cloud there is no need of much pshysical space and big IT staff.</li>
+<li>&nbsp;Companies that grow very fast and simply do not have time to grow or build their own infrastructure;</li>
+<li>&nbsp;Enterprises that should make investments in new hardware for existing or a new project, or for big apllications and want to reduce the costs on hardware and IT staff. Many companies understand that focusing on their business goals is the main ingredient for growing the business, so the time and money spent on creating and managing the infrastructure does not contribute to a higher competitiveness and it's better to outsource this staff.</li>
+<li>&nbsp;Companies that unterstand that the uptime is important for a organization. With a SLA (Service LEvel Agreement) the most important IaaS Providers are promising to keep the infrastructure up and running for 99,9 %.</li>
+</ul>
+<p>Some business have special requirements for the hardware and in this case they can not use Virtual Infrastructure but are supposed to build a Dedicated Infrastructure.</p>
+<h5>Benefits of IaaS.</h5>
+<p>Nowadays, in a such competitive business environment, top managers do not have time to think if their infrastructure will keep pace with the growth of the company and they find IaaS the perfect solution for this problem. According to&nbsp;<a href="http://www.statetechmagazine.com/article/2014/03/5-important-benefits-infrastructure-service">StateTech</a>&nbsp;there a 5 Important Benefits of Infrastructure as a Service for wich enterprises use it: cost savings, scalability and flexibility, faster time to market, support for Disaster Recovery, Business Continuity and high availability, and focus on business growth.</p>
+<ul>
+<li>&nbsp;Cost saving: The fact that IaaS gives the opportunity to create a Virtual Data Center contributes to lower infrastructure costs. An enterprise has no longer need to make big investments in a Data Center Infrastructure, to manage it, ensure the uptime and replace the old equipment. Adding to this the pay-as-you-go billing asures also cost savings. This model avoids big fixed monthly or annual fees for resources enterprises may not use.</li>
+<li>&nbsp;Scalability and flexibility: Probably the most important benefit of IaaS is the on-demand self-service. That means the company can upscale or downscale in seconds to best-fit its requirments.</li>
+<li>&nbsp;Disaster Recovery: In case of a disaster strike, IaaS provides quick recovery with no loss of data. Especially enterprises with several disparate locations profit from this model having a single disaster recovery plan and thus minimizing costs.</li>
+<li>&nbsp;Focus on business growth: Migrating to IaaS model companies may have more time and resources to focus on their main direction of business.</li>
+<li>&nbsp;Self-Service: True IaaS Providers provide an user-friendly Control Panel from where the user controls its infrastructure. Also they provide API access.</li>
+</ul>
+<h5><a href="http://www.cisco.com/c/en/us/solutions/collateral/service-provider/global-cloud-index-gci/Cloud_Index_White_Paper.html">Private or Public Cloud?</a></h5>
+<p>Delivery of infrastructure as a service may be done in 3 ways: public cloud, private cloud and hybrid cloud. Each way has its benefits for different requirements.</p>
+<p><img src="../media/1/blog/2016/04/13/04.jpg" alt="Private Cloud vs Public Cloud" width="638" height="359" /></p>
+<ul>
+<li>&nbsp;Public Cloud: Here the cloud infrastructure of the provider is shared between more customers, so the resources and the bandwidth are shared. This model is recomended for organizations that different kinds of spikes in their business so they could not predict their usage, and especially for organizations that deliver noncore applications and virtual desktop infratsructure.</li>
+<li>&nbsp;Private Cloud: The computing, network and storage resources are dedicated to a single organization in this model. So the security and availability of the services will be at the highest level thanks to the dedicated infrastructure. This is a good choice for big organizations like government or finance companies.</li>
+<li>&nbsp;Hybrid Cloud: A hybrid model balances both model advatages and this is why it became popular. A company may use it in case it want to keep a database with severe security requirements on a private infrastructure, to be more confident in its privacy, and the other applications on a public cloud for cost saving and more flexibility. An other case for hybrid cloud is in case an enterprise use the public cloud for development and testing but the private cloud for production, also have a good balance of cost saving and security.</li>
+</ul>
+<h5>Choosing the IaaS Provider.</h5>
+<p>Atfer the enterprise decided to move to a public cloud it should choose the right IaaS Provider. It will not be a hard challange for a veteran CIO, who is used to IT tehnologies. But for a newcomer will be quiet difficult to understand the difference between the offers on the market and the quality of service of different Providers. In order do make a right decision for your enterprise and for their requirements to get the best service, first consider these&nbsp;<a href="http://www.infoworld.com/article/2617704/cloud-computing/how-to-choose-an-iaas-provider.html">criterias</a>&nbsp;for choosing an IaaS Provider:</p>
+<ul>
+<li>&nbsp;SLA (Service Level Agreement) is important: Now that many cloud providers apear and many are fake, it is the cutomers job to understand a provider's SLA is real or not.</li>
+<li>&nbsp;Balance between performance and cost: Most of the reports show that price is not the first decision factor for chooosing a provider, more important is the performance and the quality of service, so try to make a balance between them not to be in detriment of enteprise but at the same time to fit your budgets.</li>
+<li>&nbsp;Moving to the Cloud: It consists of 3 steps: migration, integration and management. It's the CIO's job to ensure a successful migration, cause it could turn into daunting job in case you were on older environment, different OS or type of servers.</li>
+</ul>
+<p>More and more companies are finding infrastructure as a service to be an effective instrument to reach their business goals and this is due to that it is highly flexible and scalable for different business situations.</p>
+<h5>Conclusion.</h5>
+<p>The notion of "Cloud Computing" and "IaaS"&nbsp;<a href="http://www.johnmwillis.com/cloud-computing/who-coined-the-phrase-cloud-computing/">apeared</a>&nbsp;long time ago but some oppinions says it was introduced on a large scale use at the <a href="http://www.google.com/press/podium/ses2006.html">"Search Engine Strategies Conference"</a>&nbsp;by "<a href="https://en.wikipedia.org/wiki/Eric_Schmidt">Eric Schmidt"</a>. From that moment Cloud Computing started to be more and more popular and big companies like Amazon, Google and Microsoft started to promote Cloud Computing intensively. Many companies confirm that they made a good choice moving to IaaS, benefiting of flexibility and cost saving for growing the enterprise, become more efficient and remain competitive. Even though it sounds good, for a succesfull implementation of IaaS an enterprise should consider and its management over the time, and here a lot depends of the <a href="../index.html">IaaS Provider</a>&nbsp;choosen.</p>
+<p></p>
+
+                            <!-- Post Single - Content End -->
+        
+                            <!-- Tag Cloud
+                            ============================================= -->
+                            <div class="tagcloud clearfix bottommargin">
+                                    <a href="../tag/71-cloud-computing.html">Cloud Computing</a>
+                                    <a href="../tag/73-public-cloud.html">Public Cloud</a>
+                                    <a href="../tag/72-iaas.html">IaaS</a>
+                                    <a href="../tag/74-virtual-datacenter.html">Virtual Datacenter</a>
+                                    <a href="../tag/75-cloud-server.html">Cloud Server</a>
+                            </div><!-- .tagcloud end -->
+            
+                            <div class="clear"></div>
+            
+                            <!-- Post Single - Share
+                            ============================================= -->
+                            <div class="si-share noborder clearfix">
+                                <span>Share this Post:</span>
+                                <!-- <div><a class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a></div> -->
+                                <!-- <div class="fb-share-button" data-href="" data-layout="button_count"></div> -->
+                                <div>
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.mivocloud.com%2Fblog%2Fiaas-a-solution-for-enterprise" target="_blank" class="social-icon si-borderless si-facebook">
+                                        <i class="icon-facebook"></i>
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                    <a href="https://twitter.com/intent/tweet?text=IaaS.+a+Solution+for+Enterprise.&amp;url=https%3A%2F%2Fwww.mivocloud.com%2Fblog%2Fiaas-a-solution-for-enterprise" target="_blank" class="social-icon si-borderless si-twitter">
+                                        <i class="icon-twitter"></i>
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                    <a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.mivocloud.com%2Fblog%2Fiaas-a-solution-for-enterprise" target="_blank" class="social-icon si-borderless si-gplus">
+                                        <i class="icon-gplus"></i>
+                                        <i class="icon-gplus"></i>
+                                    </a>
+                                    <a href="http://vk.com/share.php?url=https%3A%2F%2Fwww.mivocloud.com%2Fblog%2Fiaas-a-solution-for-enterprise" target="_blank" class="social-icon si-borderless si-vk">
+                                        <i class="icon-vk"></i>
+                                        <i class="icon-vk"></i>
+                                    </a>
+                                </div>
+                            </div><!-- Post Single - Share End -->
+    
+                         </div>
+
+                    </div><!-- .entry end -->
+    
+                    <!-- Comments
+                    ============================================= -->
+                    <div class="clearfix">
+    
+                        <!-- Facebook Comments
+                        ============================================= -->
+                        <div class="fb-comments" data-width="100%" data-href="https://www.mivocloud.com/blog/iaas-a-solution-for-enterprise" data-numposts="5" data-colorscheme="light"></div>
+                        <!-- Facebook Comments end -->
+    
+                    </div><!-- #comments end -->
+    
+                </div>
+
+            </div><!-- .postcontent end -->
+
+            <!-- BEGIN Right Sidebar -->
+            <div class="sidebar nobottommargin col_last clearfix">
+                <div class="sidebar-widgets-wrap">
+
+                    <div class="widget clearfix">
+                    <form class="nobottommargin" action="https://www.mivocloud.com/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <div class="input-group divcenter">
+        <input type="text" name="q" class="form-control" placeholder="Search...">
+        <span class="input-group-btn">
+            <button type="submit" class="btn"><i class="icon-search3"></i></button>
+        </span>
+    </div>
+</form>
+                    </div>
+
+                    <!-- BEGIN Category List -->
+                    <div class="widget widget_links clearfix">
+                        <h4>Categories</h4>
+                        <ul>
+                                <li><a href="../category/6-general.html">General</a></li>
+                                <li><a href="../category/70-security-advisories.html">Security Advisories</a></li>
+                                <li><a href="../category/112-uncategorized.html">Uncategorized</a></li>
+                        </ul>
+                    </div>
+                    <!-- END Category List -->
+
+                    <!-- BEGIN Tag List -->
+                    <div class="widget clearfix">
+                        <h4>Tags</h4>
+                        <div class="tagcloud">
+                                <a href="../tag/71-cloud-computing.html">Cloud Computing</a>
+                                <a href="../tag/72-iaas.html">IaaS</a>
+                                <a href="../tag/73-public-cloud.html">Public Cloud</a>
+                                <a href="../tag/74-virtual-datacenter.html">Virtual Datacenter</a>
+                                <a href="../tag/75-cloud-server.html">Cloud Server</a>
+                                <a href="../tag/118-web.html">web</a>
+                                <a href="../tag/119-hosting.html">hosting</a>
+                                <a href="../tag/120-ssl.html">ssl</a>
+                                <a href="../tag/121-security.html">security</a>
+                        </div>
+                    </div>
+                    <!-- END Tag List -->
+    
+                    <!-- BEGIN Twitter Follow Button -->
+                    <div class="widget widget-twitter-feed clearfix">
+                        <h4>Be Connected</h4>
+                        <a href="https://twitter.com/mivocloud" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mivocloud</a>
+                    </div>
+                    <!-- END Twitter Follow Button -->
+    
+                    <!-- BEGIN Facebook Page -->
+                    <div class="widget clearfix">
+                        <div class="fb-page" data-href="https://www.facebook.com/MivoCloud/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show- facepile="true">
+                            <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/MivoCloud/"><a href="https://www.facebook.com/MivoCloud/">MivoCloud</a></blockquote></div>
+                        </div>
+                    </div>
+                    <!-- END Facebook Page -->
+    
+                </div>
+    
+            </div>
+            <!-- END Right Sidebar -->
+
+        </div>
+
+    </div>
+
+            <div id="contact">
+    <div class="promo promo-light promo-full nobottommargin" style="background-color: #efefef;">
+        <div class="container clearfix">
+            <h3 data-style-lg="font-size: 27px; font-weight: 500;">Want a <span>Consultation</span> or an <span>Advice</span>? Ask a MivoCloud <span>Expert</span>. It's <span>Free</span>.</h3>
+            <span data-style-lg="font-size: 19px; font-weight: 300;">Our customer support is ready 24/7/365 to help you. Don't guess, just ask now.</span>
+            <a href="../contact-us.html" class="button button-xlarge button-rounded" style="background-color: #0193b7;">Contact Us</a>
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+        <!-- END Content -->
+
+        <!-- BEGIN Footer -->
+        <footer id="footer" class="dark">
+        
+            <!-- BEGIN Copyrights -->
+            <div id="copyrights">
+
+                <div class="container clearfix">
+
+                    <div class="col_two_third">
+
+                        <!-- BEGIN Bottom Menu -->
+                        <div class="copyrights-menu copyright-links clearfix">
+                            
+                                <a href="../cloud.html">Cloud</a>
+                                <a href="../features.html">Features</a>
+                                <a href="../pricing.html">Pricing</a>
+                                <a href="../dedicated-servers.html">Dedicated</a>
+                                <a href="../server-management.html">Server Management</a>
+                                <a href="../contact-us.html">Contact Us</a>
+
+                        </div>
+                        <!-- END Bottom Menu -->
+
+                        Copyrights &copy; 2017 by MivoCloud S.R.L.<br>                        
+                        <div class="copyright-links"><a href="../legal.html">Terms of Service / Privacy Policy / SLA</a></div>                        
+                    </div>
+
+                    <div class="col_one_third col_last tright">
+                        <div class="widget subscribe-widget clearfix">
+                            <!-- <h5>Get our <strong>Monthly Amazing</strong> Offers:</h5> -->
+                            <form class="nobottommargin" action="https://www.mivocloud.com/plugins/cama_subscriber/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bij53BH6yjmdIcaPEMUW2yuM/FN2kkVdHbCL1g7wRjDsj+xpoDnqA/PJXBfVd0cA7KdusJ5Gnom+zjdpHmufyg==" /> 
+                                <input type='hidden' name="group_id" value='1'>
+                                <div class="input-group divcenter">
+                                    <span class="input-group-addon"><i class="icon-email2"></i></span>
+                                    <input type="email" id="widget-subscribe-form-email" name="email" class="form-control required email" placeholder="E-mail">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-success" style="background-color: #3EC303;" type="submit">Subscribe</button>
+                                    </span>
+                                </div>
+</form>                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- END Copyrights -->
+
+        </footer>
+        <!-- END Footer -->
+
+    </div>
+    <!-- END Document Wrapper -->
+
+    <!-- Go To Top -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- Footer Scripts -->
+    <!-- <script type="text/javascript" src="/assets/themes/mivocloud/assets/js/functions.js"></script> -->
+    <script src="../assets/themes/mivocloud/assets/js/functions-4b4e388edb80cc3b8944b92938ea3145d611f97bdea8bacab7e2d71324fbe7b3.js"></script>
+
+    <!-- BEGIN Corporate Contacts Code -->  
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "url": "https://www.mivocloud.com",
+          "logo": "https://www.mivocloud.com/images/logo_big.png",
+          "name" : "MivoCloud",
+          "contactPoint" : [{
+              "@type" : "ContactPoint",
+              "telephone" : "+373 795 10001",
+              "contactType" : "customer support"
+          }],
+          "sameAs" : [
+              "https://www.facebook.com/MivoCloud/",
+              "https://twitter.com/mivocloud"
+          ]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+      "@context" : "http://schema.org",
+      "@type" : "WebSite",
+      "name" : "MivoCloud",
+      "url" : "https://www.mivocloud.com"
+    }
+    </script>
+    <!-- END Corporate Contacts Code -->
+
+</body>
+
+<!-- Mirrored from www.mivocloud.com/blog/iaas-a-solution-for-enterprise by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 May 2018 22:48:07 GMT -->
+</html>
