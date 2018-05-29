@@ -1,7 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ea6d05b-55cd-4e16-959b-50a2c03067fd" name="Default" comment="" />
+    <list default="true" id="8ea6d05b-55cd-4e16-959b-50a2c03067fd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/techgorilla.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content-single.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/searchform.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/searchpage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/single.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/camaleon_google_analytic/google_analytics-51b12fd95caa31d18bb4404eb6da6add3485cc756d1660c435f314b8c4ce77b1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/icons/close.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/icons/dotted.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/icons/menu-divider.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/icons/play.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/icons/submenu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/icons/widget-comment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/icons/widget-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/parallax/parallax-bg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/pattern.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/pattern2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/images/preloader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/submenu-dark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/submenu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-comment-dark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-comment-dark@2x.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-comment@2x.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-link-dark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-link-dark@2x.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-link@2x.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/logo-dark-12fdc1cb98bb554877d59ced964f1a53e965c2dbca500b51563063f50eb02aa4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/logo-dark@2x-cc455b89ae208c189729172fce478541f5a6f1148afaf04e53bc04e92f310605.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/pattern2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/preloader-dark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/preloader-dark@2x.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/images/preloader@2x.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/besplatnye-ssl-sertifikaty-dlya-veb-hostinga.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/ce-este-un-atac-ddos.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/data-center-infrastructure-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/data-center-infrastructure-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/data-center-infrastructure-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/data-center-infrastructure.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/first-public-cloud-in-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/free-ssl-certificates-for-web-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/iaas-a-solution-for-enterprise.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/iaas-in-moldova-solutie-pentru-afacerea-ta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/iaas-in-romania-solutie-pentru-afacerea-ta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/pervoe-publichnoe-oblako-v-moldove.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/primul-cloud-public-in-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/ssl-gratis-web-hosting-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/ssl-gratis-web-hosting-romania.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/careers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/112-uncategorized.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/6-general.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/70-security-advisories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-us.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dedicated-servers-romania.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dedicated-servers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/legal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/besplatnye-ssl-sertifikaty-dlya-veb-hostinga.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/ce-este-un-atac-ddos.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/data-center-infrastructure-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/data-center-infrastructure-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/data-center-infrastructure-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/data-center-infrastructure.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/first-public-cloud-in-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/free-ssl-certificates-for-web-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/iaas-a-solution-for-enterprise.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/iaas-in-moldova-solutie-pentru-afacerea-ta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/iaas-in-romania-solutie-pentru-afacerea-ta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/pervoe-publichnoe-oblako-v-moldove.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/primul-cloud-public-in-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/ssl-gratis-web-hosting-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/blog/ssl-gratis-web-hosting-romania.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/careers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/category/112-uncategorized.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/category/6-general.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/category/70-security-advisories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/cloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/contact-us.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/dedicated-servers-romania.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/dedicated-servers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/features.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/legal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/pricing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/rss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/server-management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/tag/118-web.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/tag/119-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/tag/120-ssl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/tag/121-security.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/tag/71-cloud-computing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/tag/72-iaas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/tag/73-public-cloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/tag/74-virtual-datacenter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/tag/75-cloud-server.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/vps.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md/web-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pricing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/restserver.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/besplatnye-ssl-sertifikaty-dlya-veb-hostinga.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/ce-este-un-atac-ddos.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/data-center-infrastructure-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/data-center-infrastructure-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/data-center-infrastructure-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/data-center-infrastructure.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/first-public-cloud-in-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/free-ssl-certificates-for-web-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/iaas-a-solution-for-enterprise.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/iaas-in-moldova-solutie-pentru-afacerea-ta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/iaas-in-romania-solutie-pentru-afacerea-ta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/pervoe-publichnoe-oblako-v-moldove.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/primul-cloud-public-in-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/ssl-gratis-web-hosting-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/blog/ssl-gratis-web-hosting-romania.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/careers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/category/112-uncategorized.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/category/6-general.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/category/70-security-advisories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/cloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/contact-us.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/dedicated-servers-romania.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/dedicated-servers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/features.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/legal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/pricing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/rss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/server-management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/tag/118-web.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/tag/119-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/tag/120-ssl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/tag/121-security.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/tag/71-cloud-computing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/tag/72-iaas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/tag/73-public-cloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/tag/74-virtual-datacenter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/tag/75-cloud-server.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/vps.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ro/web-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/besplatnye-ssl-sertifikaty-dlya-veb-hostinga.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/ce-este-un-atac-ddos.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/data-center-infrastructure-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/data-center-infrastructure-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/data-center-infrastructure-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/data-center-infrastructure.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/first-public-cloud-in-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/free-ssl-certificates-for-web-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/iaas-a-solution-for-enterprise.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/iaas-in-moldova-solutie-pentru-afacerea-ta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/iaas-in-romania-solutie-pentru-afacerea-ta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/pervoe-publichnoe-oblako-v-moldove.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/primul-cloud-public-in-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/ssl-gratis-web-hosting-moldova.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/blog/ssl-gratis-web-hosting-romania.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/careers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/category/112-uncategorized.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/category/6-general.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/category/70-security-advisories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/cloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/contact-us.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/dedicated-servers-romania.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/dedicated-servers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/features.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/legal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/pricing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/rss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/server-management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/tag/118-web.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/tag/119-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/tag/120-ssl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/tag/121-security.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/tag/71-cloud-computing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/tag/72-iaas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/tag/73-public-cloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/tag/74-virtual-datacenter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/tag/75-cloud-server.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/vps.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ru/web-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server-management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/118-web.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/119-hosting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/120-ssl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/121-security.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/71-cloud-computing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/72-iaas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/73-public-cloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/74-virtual-datacenter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/75-cloud-server.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vps.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-hosting.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content.php" afterPath="$PROJECT_DIR$/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sidebar.php" afterPath="$PROJECT_DIR$/sidebar.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/css/main-e9e22fa35743aaed50bb7ef0286b0ced7b80817f76b5905d22eb64df2ac87ec0.css" afterPath="$PROJECT_DIR$/assets/css/techgorilla.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/themes/mivocloud/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/1/theme/favicon.png" afterPath="$PROJECT_DIR$/images/favicon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/1/theme/slider_bg.png" afterPath="$PROJECT_DIR$/images/slider_bg.png" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,42 +229,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="563">
+              <caret line="1481" column="21" lean-forward="false" selection-start-line="1481" selection-start-column="21" selection-end-line="1481" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+            <state relative-caret-position="644">
+              <caret line="110" column="14" lean-forward="false" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="searchform.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/searchform.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <element signature="e#6#160#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchpage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/searchpage.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="70" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content.php">
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="476">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -54,43 +296,105 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="352">
+              <caret line="75" column="60" lean-forward="false" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
               <folding>
-                <element signature="e#908#914#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#span#1;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+                <marker date="1527577301043" expanded="false" signature="5586:5611" ph="..." />
+                <marker date="1527577301043" expanded="false" signature="7477:7503" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="removed.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/removed.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="848">
-              <caret line="129" column="3" lean-forward="false" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;/he</find>
+      <find>header-wrap:not(.not-dark) #primary-menu &gt; ul &gt; li &gt; a</find>
+      <find>#primary-menu:not(.style-2) &gt; ul {</find>
+      <find>iphone6</find>
+      <find>ip</find>
+      <find>primary-menu</find>
+      <find>nav</find>
+      <find>dropdown-menu</find>
+      <find>#primary-menu ul li .mega-menu-content {</find>
+      <find>sub-menu</find>
+      <find>.dark #header.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark),</find>
+      <find>#dc2430</find>
+      <find>.breadcrumb {</find>
+      <find>vc_</find>
+      <find>column_container</find>
+      <find>homepage-items</find>
+      <find>valence_fetures</find>
+      <find>.feture</find>
+      <find>fadeIn</find>
+      <find>col-lg-4 col-md-4 col-xs-12</find>
+      <find>.tabs.tabs-tb ul.tab-nav li.ui-tabs-active a {</find>
+      <find>body {</find>
+      <find>BD0102</find>
+      <find>body</find>
+      <find>.ftr-host:hove</find>
+      <find>sidenav</find>
+      <find>font-family: 'Roboto', sans-serif;</find>
+      <find>text-center&quot; class=&quot;quote-btn&quot;</find>
+      <find>hideme</find>
+      <find>38,182,223</find>
+      <find>0,173,221</find>
     </findStrings>
+    <replaceStrings>
+      <replace>../../fonts</replace>
+      <replace>#c1c1c1</replace>
+      <replace>container</replace>
+      <replace>hideme</replace>
+      <replace>col-lg-4 col-md-4 col-xs-12 hideme</replace>
+      <replace>082031</replace>
+      <replace>text-center quote-btn&quot;</replace>
+      <replace>8,32,49</replace>
+      <replace>54,109,148</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/sidebar.php" />
         <option value="$PROJECT_DIR$/removed.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/themes/mivocloud/assets/js/functions.js" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/assets/js/techgorilla.js" />
         <option value="$PROJECT_DIR$/content.php" />
+        <option value="$PROJECT_DIR$/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/content-single.php" />
+        <option value="$PROJECT_DIR$/md/blog/ce-este-un-atac-ddos.html" />
+        <option value="$PROJECT_DIR$/tag/71-cloud-computing.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/single.php" />
+        <option value="$PROJECT_DIR$/assets/css/all.css" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/old.php" />
+        <option value="$PROJECT_DIR$/assets/js/scripts.js" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/assets/css/techgorilla.css" />
+        <option value="$PROJECT_DIR$/assets/css/animate.css" />
+        <option value="$PROJECT_DIR$/misc.php" />
+        <option value="$PROJECT_DIR$/assets/js/functions.js" />
+        <option value="$PROJECT_DIR$/searchform.php" />
+        <option value="$PROJECT_DIR$/searchpage.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/search.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/assets/css/custom.scss" />
+        <option value="$PROJECT_DIR$/sidebar.php" />
       </list>
     </option>
   </component>
@@ -113,6 +417,7 @@
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -128,6 +433,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -136,75 +442,28 @@
               <item name="tg_dark" type="b2602c69:ProjectViewProjectNode" />
               <item name="tg_dark" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="tg_dark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tg_dark" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tg_dark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tg_dark" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tg_dark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tg_dark" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mivocloud" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tg_dark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tg_dark" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mivocloud" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tg_dark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tg_dark" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mivocloud" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tg_dark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tg_dark" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mivocloud" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tg_dark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tg_dark" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mivocloud" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.selected.package.tslint" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Buisness/WHMCS/templates/techgorilla_whmcs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\XAMPP\htdocs\wordpress\wp-content\themes\tg_dark\images" />
+      <recent name="F:\XAMPP\htdocs\wordpress\wp-content\themes\tg_dark" />
+      <recent name="F:\XAMPP\htdocs\wordpress\wp-content\themes\tg_dark\assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,34 +487,66 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526178537649</updated>
-      <workItem from="1526178539318" duration="2758000" />
+      <workItem from="1526178539318" duration="13024000" />
+      <workItem from="1526350203119" duration="37000" />
+      <workItem from="1526355963317" duration="4630000" />
+      <workItem from="1526871199604" duration="10599000" />
+      <workItem from="1526943587614" duration="3020000" />
+      <workItem from="1526949434931" duration="27000" />
+      <workItem from="1526949471293" duration="8681000" />
+      <workItem from="1527026373607" duration="5428000" />
+      <workItem from="1527202148491" duration="308000" />
+      <workItem from="1527202514341" duration="40000" />
+      <workItem from="1527391736836" duration="8554000" />
+      <workItem from="1527475883090" duration="4709000" />
+      <workItem from="1527557625987" duration="22165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2758000" />
+    <option name="totallyTimeSpent" value="81222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13870968" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13870968" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -268,27 +559,73 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sidebar.php">
+    <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="40817">
+          <caret line="2401" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2402" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/removed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
+        <state relative-caret-position="2193">
           <caret line="129" column="3" lean-forward="false" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -312,17 +649,275 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/removed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="3" lean-forward="false" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/submenu.html" />
+    <entry file="file://$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-link-dark.html" />
+    <entry file="file://$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-link@2x.html" />
+    <entry file="file://$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-comment-dark@2x.html" />
+    <entry file="file://$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-comment-dark.html" />
+    <entry file="file://$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/widget-comment@2x.html" />
+    <entry file="file://$PROJECT_DIR$/assets/themes/mivocloud/assets/images/icons/submenu-dark.html" />
+    <entry file="file://$PROJECT_DIR$/assets/themes/mivocloud/assets/images/logo-dark@2x-cc455b89ae208c189729172fce478541f5a6f1148afaf04e53bc04e92f310605.png" />
+    <entry file="file://$PROJECT_DIR$/assets/themes/mivocloud/assets/images/logo-dark-12fdc1cb98bb554877d59ced964f1a53e965c2dbca500b51563063f50eb02aa4.png" />
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/blog/ce-este-un-atac-ddos.html" />
+    <entry file="file://$PROJECT_DIR$/tag/71-cloud-computing.html" />
+    <entry file="file://$PROJECT_DIR$/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/removed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2099" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10313" column="0" lean-forward="false" selection-start-line="10313" selection-start-column="0" selection-end-line="10313" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content-single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="510" column="49" lean-forward="true" selection-start-line="510" selection-start-column="49" selection-end-line="510" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="648" column="33" lean-forward="true" selection-start-line="648" selection-start-column="33" selection-end-line="648" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/techgorilla.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14688">
+          <caret line="864" column="24" lean-forward="false" selection-start-line="864" selection-start-column="24" selection-end-line="864" selection-end-column="24" />
           <folding>
-            <element signature="e#908#914#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#span#1;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <marker date="1526872192864" expanded="true" signature="76662:76706" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/techgorilla.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="5308" column="18" lean-forward="false" selection-start-line="5308" selection-start-column="18" selection-end-line="5308" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="e#2791#16867#0" expanded="false" />
+            <element signature="e#16881#30971#0" expanded="false" />
+            <element signature="e#30981#35069#0" expanded="false" />
+            <element signature="e#35084#39185#0" expanded="false" />
+            <element signature="e#39195#41309#0" expanded="false" />
+            <element signature="e#41324#43451#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="210" column="10" lean-forward="true" selection-start-line="210" selection-start-column="10" selection-end-line="210" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#3;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#4;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="70" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="75" column="60" lean-forward="false" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+          <folding>
+            <marker date="1527577301043" expanded="false" signature="5586:5611" ph="..." />
+            <marker date="1527577301043" expanded="false" signature="7477:7503" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#160#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        <state relative-caret-position="644">
+          <caret line="110" column="14" lean-forward="false" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="1481" column="21" lean-forward="false" selection-start-line="1481" selection-start-column="21" selection-end-line="1481" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
         </state>
       </provider>
