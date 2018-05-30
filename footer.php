@@ -1,4 +1,10 @@
 <?php
+
+$f1 = wp_get_nav_menu_object( 24 );
+$f2 = wp_get_nav_menu_object( 25 );
+$f3 = wp_get_nav_menu_object( 26 );
+// then echo the name of the menu
+
 ?>
 
 </div>
@@ -9,11 +15,12 @@
                 <div class="row footer-links">
                     <div class="hosing-pakages col-md-3 wow" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: ;">
                         <div class="widget widget_nav_menu">
-                            <h4 class="widget-title-w">hosting pakages</h4>
+                            <h4 class="widget-title-w"><?php echo $f1->name; ?></h4>
                             <div class="menu-hosting-pakages-container">
                                 <?php /* Primary navigation */
                                 wp_nav_menu( array(
                                     'menu' => 'footer_menu_1',
+                                    'theme_location' => 'footer_menu_1',
                                     'depth' => 2,
                                     'container' => false,
                                     'menu_class' => 'menu',
@@ -21,21 +28,16 @@
                                     //'walker' => new My_Walker_Nav_Menu()
                                 ));
                                 ?>
-                                <!--<ul id="menu-hosting-pakages" class="menu">
-                                    <li id="menu-item-281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-281"><a href="#">Web Hosting</a></li>
-                                    <li id="menu-item-282" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-282"><a href="#">Reseller Hosting</a></li>
-                                    <li id="menu-item-283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-283"><a href="#">VPS Hosting</a></li>
-                                    <li id="menu-item-284" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Web Hosting</a></li>
-                                    <li id="menu-item-285" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">Reseller Hosting</a></li>
-                                    <li id="menu-item-286" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-286"><a href="#">VPS Hosting</a></li>
-                                </ul>-->
                             </div>
                         </div>
                     </div>
                     <div class="services-pakages col-md-3 wow " data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: ;">
-                        <div class="widget widget_nav_menu"><h4 class="widget-title-w">our services</h4><div class="menu-our-services-container"> <?php /* Primary navigation */
+                        <div class="widget widget_nav_menu">
+                            <h4 class="widget-title-w"><?php echo $f2->name; ?></h4>
+                            <div class="menu-our-services-container"> <?php /* Primary navigation */
                                 wp_nav_menu( array(
                                     'menu' => 'footer_menu_2',
+                                    'theme_location' => 'footer_menu_2',
                                     'depth' => 2,
                                     'container' => false,
                                     'menu_class' => 'menu',
@@ -44,9 +46,12 @@
                                 ));
                                 ?></div></div>                          </div>
                     <div class="company-pakages col-md-3 wow " data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: ;">
-                        <div class="widget widget_nav_menu"><h4 class="widget-title-w">company</h4><div class="menu-company-container"> <?php /* Primary navigation */
+                        <div class="widget widget_nav_menu">
+                            <h4 class="widget-title-w"><?php echo $f3->name; ?></h4>
+                            <div class="menu-company-container"> <?php /* Primary navigation */
                                 wp_nav_menu( array(
                                     'menu' => 'footer_menu_3',
+                                    'theme_location' => 'footer_menu_3',
                                     'depth' => 2,
                                     'container' => false,
                                     'menu_class' => 'menu',

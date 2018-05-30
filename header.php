@@ -27,7 +27,8 @@
     <nav id="primary-menu" class="style-4">
         <?php /* Primary navigation */
         wp_nav_menu( array(
-            'menu' => 'top_menu',
+            'menu' => 'header_menu',
+            'theme_location' => 'header_menu',
             'depth' => 2,
             'container' => false,
             'menu_class' => 'nav show',
@@ -65,6 +66,7 @@
                     <?php /* Primary navigation */
                     wp_nav_menu( array(
                             'menu' => 'header_menu',
+                            'theme_location' => 'header_menu',
                             'depth' => 2,
                             'container' => false,
                             'menu_class' => 'nav',
@@ -83,9 +85,9 @@
             <div id='stars2'></div>
             <div id='stars3'></div>
             <div id='header-stars' >
-                <div class="container clearfix" style="margin-top: 140px;">
+                <div class="container clearfix">
                     <?php if (have_posts() && is_archive()) { ?>
-                        <span class="title">
+                        <span class="title hover hover-3">
                             <?php the_archive_title(); ?>
                         </span>
                     <?php } else if (is_search()) { ?>
@@ -97,7 +99,7 @@
                             <?php } ?>
                         </span>
                     <?php } else if (!empty($post->post_title)) { ?>
-                        <span class="title">
+                        <span class="title hover hover-3">
                             <?php the_title(); ?>
                         </span>
                     <?php } ?>
