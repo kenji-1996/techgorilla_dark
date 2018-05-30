@@ -84,13 +84,14 @@
     font-size: 39px;
 }
 #header-stars .title {
-    color: #FFF;
+    background-color: white;
+    color: black;
     text-transform: uppercase;
     text-align: left;
-    /*font-family: "lato", sans-serif;*/
+    border-radius: 20px 20px 0 0;
     font-weight: 600;
     letter-spacing: 10px;
-    padding-left: 10px;
+    padding-left: 25px;
     font-size: 39px;
 }
 #title .btn {

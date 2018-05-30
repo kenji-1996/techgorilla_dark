@@ -1,7 +1,6 @@
 <!--<div class="col-sm-3 col-sm-offset-1 blog-sidebar">-->
 <div id='content-outer' style='padding: 10px;'>
     <div class="sidebar-module">
-        <div class="sidebar-form-title">Search</div>
         <?php get_search_form(); ?>
     </div>
     <div class="sidebar-module sidebar-module-inset">

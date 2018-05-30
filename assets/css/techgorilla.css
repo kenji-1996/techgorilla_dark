@@ -105,6 +105,7 @@ html {
 body {
     margin: 0;
     color: rgba(5,37,58,0.5);
+    background-color: #2a363f;
 }
 article,
 aside,
@@ -376,7 +377,6 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
-    background-color: #ffffff;
 }
 input,
 button,
@@ -5306,7 +5306,6 @@ dl, dt, dd, ol, ul, li {
 
 body {
     line-height: 1.5;
-    color: #082031;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -10747,151 +10746,49 @@ body:not(.device-touch) .entry-link {
 /* ----------------------------------------------------------------
 	Comments List
 -----------------------------------------------------------------*/
-
-
-#comments {
-    position: relative;
-    margin-top: 50px;
-    padding-top: 50px;
-    border-top: 1px solid #EEE;
+ol.commentlist { list-style:none; margin:0 0 1em; padding:0; text-indent:0; }
+ol.commentlist li { }
+ol.commentlist li.alt { }
+ol.commentlist li.bypostauthor {}
+ol.commentlist li.byuser {}
+ol.commentlist li.comment-author-admin {}
+ol.commentlist li.comment { border-radius: 10px; padding: 0.5em; }
+ol.commentlist li.comment div.comment-author {}
+ol.commentlist li.comment div.vcard { font-size:16px; }
+ol.commentlist li.comment div.vcard cite.fn { font-style:normal; }
+ol.commentlist li.comment div.vcard cite.fn a.url {}
+ol.commentlist li.comment div.vcard img.avatar { border:1px solid #ccc; float:right; margin:0 0 1em 1em; }
+ol.commentlist li.comment div.vcard img.avatar-32 {}
+ol.commentlist li.comment div.vcard img.photo {}
+ol.commentlist li.comment div.vcard span.says {}
+ol.commentlist li.comment div.commentmetadata {}
+ol.commentlist li.comment div.comment-meta { font-size:9px; }
+ol.commentlist li.comment div.comment-meta a { color:#ccc; }
+ol.commentlist li.comment p { font-size:11px; margin:0 0 1em; }
+ol.commentlist li.comment ul { font-size:11px; list-style:square; margin:0 0 1em 2em; }
+ol.commentlist li.comment div.reply { font-size:9px; }
+ol.commentlist li.comment div.reply a { font-weight:bold; }
+ol.commentlist li.comment ul.children { list-style:none; margin:0.5em; text-indent:0; }
+ol.commentlist li.comment ul.children li {}
+ol.commentlist li.comment ul.children li.alt {}
+ol.commentlist li.comment ul.children li.bypostauthor {}
+ol.commentlist li.comment ul.children li.byuser {}
+ol.commentlist li.comment ul.children li.comment { padding: 0.5em; }
+ol.commentlist li.comment ul.children li.comment-author-admin {}
+ol.commentlist li.comment ul.children li.depth-2 { -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.7); -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.7);  box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.7); margin: 0 .25em .25em; }
+ol.commentlist li.comment ul.children li.depth-3 { -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.7); -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.7);  box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.7); margin:0 0 .25em .25em; }
+ol.commentlist li.comment ul.children li.depth-4 { -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.7); -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.7);  box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.7); margin:0 0 .25em .25em; }
+ol.commentlist li.comment ul.children li.depth-5 {}
+ol.commentlist li.comment ul.children li.odd {}
+ol.commentlist li.even { background:#fff; }
+ol.commentlist li.odd { background:#f6f6f6; }
+ol.commentlist li.parent { -webkit-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.7); -moz-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.7);  box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.7); }
+ol.commentlist li.thread-alt { }
+ol.commentlist li.thread-even {}
+ol.commentlist li.thread-odd {}
+.commentform {
+    margin-bottom:15px;
 }
-
-.commentlist {
-    list-style: none;
-    padding-bottom: 50px;
-    margin: 0 0 50px;
-    border-bottom: 1px solid #EEE;
-}
-
-#reviews .commentlist {
-    padding-bottom: 30px;
-    margin: 0 0 20px;
-}
-
-.commentlist ul { list-style: none; }
-
-.commentlist li,
-.commentlist li ul,
-.commentlist li ul li { margin: 30px 0 0 0; }
-
-.commentlist ul:first-child { margin-top: 0; }
-
-.commentlist li {
-    position: relative;
-    margin: 30px 0 0 30px;
-}
-
-#reviews .commentlist li { margin-top: 20px; }
-
-.comment-wrap {
-    position: relative;
-    border: 1px solid #E5E5E5;
-    border-radius: 5px;
-    padding: 20px 20px 20px 35px;
-}
-
-.commentlist ul .comment-wrap {
-    margin-left: 25px;
-    padding-left: 20px;
-}
-
-#reviews .comment-wrap {
-    border: 0;
-    padding: 10px 0 0 35px;
-}
-
-.commentlist > li:first-child,
-#reviews .commentlist > li:first-child {
-    padding-top: 0;
-    margin-top: 0;
-}
-
-.commentlist li .children { margin-top: 0; }
-
-.commentlist li li .children { margin-left: 30px; }
-
-.commentlist li .comment-content,
-.pingback {
-    position: relative;
-    overflow: hidden;
-}
-
-.commentlist li .comment-content p,
-.pingback p { margin: 20px 0 0 0; }
-
-.commentlist li .comment-content { padding: 0 0 0 15px; }
-
-.commentlist li .comment-meta {
-    float: left;
-    margin-right: 0;
-    line-height: 1;
-}
-
-.comment-avatar {
-    position: absolute;
-    top: 15px;
-    left: -35px;
-    padding: 4px;
-    background: #FFF;
-    border: 1px solid #E5E5E5;
-    border-radius: 50%;
-}
-
-.comment-avatar img {
-    display: block;
-    border-radius: 50%;
-}
-
-.commentlist li .children .comment-avatar { left: -25px; }
-
-.comment-content .comment-author {
-    margin-bottom: -10px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #555;
-}
-
-.comment-content .comment-author a {
-    border: none;
-    color: #333;
-}
-
-.comment-content .comment-author a:hover { color: #1ABC9C; }
-
-.comment-content .comment-author span { display: block; }
-
-.comment-content .comment-author span,
-.comment-content .comment-author span a {
-    font-size: 12px;
-    font-weight: normal;
-    font-family: 'Crete Round', serif;
-    font-style: italic;
-    color: #AAA;
-}
-
-.comment-content .comment-author span a:hover { color: #888; }
-
-.comment-reply-link,
-.review-comment-ratings {
-    display: block;
-    position: absolute;
-    top: 4px;
-    left: auto;
-    text-align: center;
-    right: 0px;
-    width: 14px;
-    height: 14px;
-    color: #CCC;
-    font-size: 14px;
-    line-height: 1;
-}
-
-.review-comment-ratings {
-    width: auto;
-    color: #333;
-}
-
-.comment-reply-link:hover { color: #888; }
 
 
 /* ----------------------------------------------------------------
@@ -10900,7 +10797,7 @@ body:not(.device-touch) .entry-link {
 
 
 #respond,
-#respond form { margin-bottom: 0; }
+#respond form { margin-bottom: 15px; }
 
 .commentlist li #respond { margin: 30px 0 0; }
 

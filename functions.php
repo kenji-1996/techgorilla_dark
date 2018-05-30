@@ -42,6 +42,33 @@ function techgorilla_google_fonts() {
 /**
  * Theme support
  */
+function get_menu_name( $location ) {
+    if( empty($location) ) return false;
+
+    $locations = get_nav_menu_locations();
+    if( ! isset( $locations[$location] ) ) return false;
+
+    $menu_obj = get_term( $locations[$location], 'nav_menu' );
+
+    return $menu_obj;
+}
+function register_my_menu() {
+    register_nav_menus( array(
+        'header_menu' => 'Header Menu',
+        'footer_menu_1' => 'Footer Menu 1',
+        'footer_menu_2' => 'Footer Menu 2',
+        'footer_menu_3' => 'Footer Menu 3',
+    ) );
+}
+add_action( 'init', 'register_my_menu' );
+function comment_submit($args ) {
+
+    $args['class_submit'] = 'btn btn-primary'; // since WP 4.1
+
+    return $args;
+
+}
+add_filter( 'comment_form_defaults', 'comment_submit' );
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
 add_theme_support( 'title-tag' );
@@ -314,19 +341,6 @@ function contenthead( $classes ) {
     }
     return $classes;
 }
-
-/**
- * Custom nav menu
- */
-function wpb_custom_new_menu() {
-    register_nav_menus(
-        array(
-            'my-custom-menu' => __( 'Navbar menu' ),
-            'extra-menu' => __( 'Extra Menu' )
-        )
-    );
-}
-add_action( 'init', 'wpb_custom_new_menu' );
 function my_nav_menu_submenu_css_class( $classes ) {
     $classes[] = 'dropdown-menu';
     return $classes;

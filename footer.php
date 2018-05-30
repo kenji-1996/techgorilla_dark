@@ -1,45 +1,69 @@
+<?php
+?>
+
 </div>
-<footer id="footer-area" class="">
+<footer id="footer-area">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="row footer-links">
-                    <div class="hosing-pakages col-md-3 wow " data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: ;">
-                        <div class="widget widget_nav_menu"><h4 class="widget-title-w">hosting pakages</h4><div class="menu-hosting-pakages-container"><ul id="menu-hosting-pakages" class="menu"><li id="menu-item-281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-281"><a href="#">Web Hosting</a></li>
+                    <div class="hosing-pakages col-md-3 wow" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: ;">
+                        <div class="widget widget_nav_menu">
+                            <h4 class="widget-title-w">hosting pakages</h4>
+                            <div class="menu-hosting-pakages-container">
+                                <?php /* Primary navigation */
+                                wp_nav_menu( array(
+                                    'menu' => 'footer_menu_1',
+                                    'depth' => 2,
+                                    'container' => false,
+                                    'menu_class' => 'menu',
+                                    //Process nav menu using our custom nav walker
+                                    //'walker' => new My_Walker_Nav_Menu()
+                                ));
+                                ?>
+                                <!--<ul id="menu-hosting-pakages" class="menu">
+                                    <li id="menu-item-281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-281"><a href="#">Web Hosting</a></li>
                                     <li id="menu-item-282" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-282"><a href="#">Reseller Hosting</a></li>
                                     <li id="menu-item-283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-283"><a href="#">VPS Hosting</a></li>
                                     <li id="menu-item-284" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Web Hosting</a></li>
                                     <li id="menu-item-285" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">Reseller Hosting</a></li>
                                     <li id="menu-item-286" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-286"><a href="#">VPS Hosting</a></li>
-                                </ul></div></div>                          </div>
+                                </ul>-->
+                            </div>
+                        </div>
+                    </div>
                     <div class="services-pakages col-md-3 wow " data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: ;">
-                        <div class="widget widget_nav_menu"><h4 class="widget-title-w">our services</h4><div class="menu-our-services-container"><ul id="menu-our-services" class="menu"><li id="menu-item-287" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-287"><a href="#">Website Builder</a></li>
-                                    <li id="menu-item-288" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-288"><a href="#">Web Design</a></li>
-                                    <li id="menu-item-289" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-289"><a href="#">Logo Design</a></li>
-                                    <li id="menu-item-290" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-290"><a href="#">Email Markting</a></li>
-                                    <li id="menu-item-291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-291"><a href="#">Logo Design</a></li>
-                                    <li id="menu-item-292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-292"><a href="#">Email Markting</a></li>
-                                </ul></div></div>                          </div>
+                        <div class="widget widget_nav_menu"><h4 class="widget-title-w">our services</h4><div class="menu-our-services-container"> <?php /* Primary navigation */
+                                wp_nav_menu( array(
+                                    'menu' => 'footer_menu_2',
+                                    'depth' => 2,
+                                    'container' => false,
+                                    'menu_class' => 'menu',
+                                    //Process nav menu using our custom nav walker
+                                    //'walker' => new My_Walker_Nav_Menu()
+                                ));
+                                ?></div></div>                          </div>
                     <div class="company-pakages col-md-3 wow " data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: ;">
-                        <div class="widget widget_nav_menu"><h4 class="widget-title-w">company</h4><div class="menu-company-container"><ul id="menu-company" class="menu"><li id="menu-item-293" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-293"><a href="#">Homepage</a></li>
-                                    <li id="menu-item-294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-294"><a href="#">About Us</a></li>
-                                    <li id="menu-item-299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-299"><a href="#">Blogs</a></li>
-                                    <li id="menu-item-300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-300"><a href="#">Homepage</a></li>
-                                    <li id="menu-item-301" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-301"><a href="#">About Us</a></li>
-                                    <li id="menu-item-302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-302"><a href="#">Blogs</a></li>
-                                </ul></div></div>                          </div>
+                        <div class="widget widget_nav_menu"><h4 class="widget-title-w">company</h4><div class="menu-company-container"> <?php /* Primary navigation */
+                                wp_nav_menu( array(
+                                    'menu' => 'footer_menu_3',
+                                    'depth' => 2,
+                                    'container' => false,
+                                    'menu_class' => 'menu',
+                                    //Process nav menu using our custom nav walker
+                                    //'walker' => new My_Walker_Nav_Menu()
+                                ));
+                                ?></div></div>                          </div>
                     <div class="col-md-3 footer-cntct-info wow " data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: ;">
                         <a class="footer-logo" href="#"><img style="max-width: 160px;" src="https://techgorilla.io/wp-content/uploads/2018/05/logo-white.png" alt="footer_logo"></a>
                         <div class="address">
-                            no 56, algeria citty adev,
-                            glov no 55 awaay the street
-                            algeria, medea
+                            Web Design, Search Engine Optimisation, Server Hosting, Mail Setup
                         </div>
                         <div class="mobandmail">
                             <span><b>phone:</b> <a href="tel:61416723376">(61) 416 723 376</a></span>
                             <span><b>mail:</b> <a href="mailto:sales@techgorilla.io">sales@techgorilla.io</a></span>
                         </div>
-                        <a href="#"><img style="max-width: 250px;" src="http://demo.nrgthemes.com/projects/valence/wp-content/uploads/2017/09/payment-1.png" alt="payment"></a>
+                        <a href="#"><img style="max-width: 250px;" src="<?php bloginfo('stylesheet_directory'); ?>/images/payments.png" alt="payment"></a>
                     </div>
                 </div>
             </div>

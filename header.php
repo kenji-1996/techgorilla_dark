@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US" style="/*overflow-x: hidden;*/">
-
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<!-- HEADER -->
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400,600italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css">
-
     <?php
     $header = get_post_meta( get_the_ID(), '_techgorilla_header', TRUE );
     ?>
@@ -20,6 +19,9 @@
 
     <?php wp_head(); ?>
 </head>
+<!-- HEADER END -->
+
+<!-- SIDENAV -->
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="sidenav-close">&times;</a>
     <nav id="primary-menu" class="style-4">
@@ -36,6 +38,8 @@
     </nav>
 </div>
 <div class="sidenav-bg"></div>
+<!-- SIDENAV END -->
+
 <body data-phone-cc-input="1">
 <div id="main">
     <header id="header" class="header dark <?php if (is_front_page()) { echo 'header-front-page'; }else{ echo 'header-other'; } ?>">
@@ -60,7 +64,7 @@
                 <nav id="primary-menu" class="style-4">
                     <?php /* Primary navigation */
                     wp_nav_menu( array(
-                            'menu' => 'top_menu',
+                            'menu' => 'header_menu',
                             'depth' => 2,
                             'container' => false,
                             'menu_class' => 'nav',
@@ -72,15 +76,14 @@
             </div>
         </div>
     </header>
-
     <div id="wrap">
         <?php if (!is_front_page()) { ?>
         <div class="header-bg">
             <div id='stars'></div>
             <div id='stars2'></div>
             <div id='stars3'></div>
-            <div id='header-stars'>
-                <div class="container clearfix">
+            <div id='header-stars' >
+                <div class="container clearfix" style="margin-top: 140px;">
                     <?php if (have_posts() && is_archive()) { ?>
                         <span class="title">
                             <?php the_archive_title(); ?>
