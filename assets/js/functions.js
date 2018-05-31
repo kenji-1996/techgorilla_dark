@@ -20,6 +20,7 @@
                 }
             });
         });
+
         $('#fancy-feature').css("opacity", "1");//.animate({'opacity':'1'},500);
         $('#footer-area').css("opacity", "1");//.animate({'opacity':'1'});
         $('#title').css("opacity", "1");//.animate({'opacity':'1'});
