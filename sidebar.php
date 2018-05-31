@@ -1,5 +1,5 @@
 <!--<div class="col-sm-3 col-sm-offset-1 blog-sidebar">-->
-<div id='content-outer' style='padding: 10px;'>
+<div id='content-outer' style='padding: 50px 10px 10px 10px;'>
     <div class="sidebar-module">
         <?php get_search_form(); ?>
     </div>
