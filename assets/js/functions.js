@@ -16,13 +16,13 @@
                 var bottom_of_window = $(window).scrollTop() + $(window).height();
                 /* If the object is completely visible in the window, fade it it */
                 if( bottom_of_window > bottom_of_object ){
-                    $(this).animate({'opacity':'1'},1000);
+                    $(this).css("opacity", "1");//.animate({'opacity':'1'});
                 }
             });
         });
-        $('#fancy-feature').animate({'opacity':'1'},1000);
-        $('#footer-area').animate({'opacity':'1'},1000);
-        $('#title').animate({'opacity':'1'},1000);
+        $('#fancy-feature').css("opacity", "1");//.animate({'opacity':'1'},500);
+        $('#footer-area').css("opacity", "1");//.animate({'opacity':'1'});
+        $('#title').css("opacity", "1");//.animate({'opacity':'1'});
 
 
         $('#primary-menu ul li.menu-item-has-children').hover(function() {
