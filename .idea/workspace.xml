@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ea6d05b-55cd-4e16-959b-50a2c03067fd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sidebar.php" afterPath="$PROJECT_DIR$/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/animate.css" afterPath="$PROJECT_DIR$/assets/css/animate.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,17 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="animate.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/animate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+            <state relative-caret-position="221">
+              <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -118,7 +118,6 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/single.php" />
         <option value="$PROJECT_DIR$/404.php" />
-        <option value="$PROJECT_DIR$/assets/css/animate.css" />
         <option value="$PROJECT_DIR$/assets/css/custom.scss" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/header.php" />
@@ -126,6 +125,7 @@
         <option value="$PROJECT_DIR$/assets/css/techgorilla.css" />
         <option value="$PROJECT_DIR$/assets/js/functions.js" />
         <option value="$PROJECT_DIR$/sidebar.php" />
+        <option value="$PROJECT_DIR$/assets/css/animate.css" />
       </list>
     </option>
   </component>
@@ -253,7 +253,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95472000" />
+    <option name="totallyTimeSpent" value="96115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -630,18 +630,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding />
         </state>
       </provider>

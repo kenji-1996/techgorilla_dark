@@ -31,6 +31,7 @@
 }
 .cover-bg {
     height: 60vh;
+    min-height: 400px;
     background: radial-gradient(ellipse at bottom, #082031 0%, #090a0f 100%);
     overflow: hidden;
 }
