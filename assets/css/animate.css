@@ -67,6 +67,7 @@
      margin-top: -60px;
      padding-left: 10px;
      font-size: 39px;
+    line-height: 40px;
  }
 #title .title {
 
@@ -106,13 +107,8 @@
 #title .btn:hover {
     background-color: rgba(0,0,0,0.2);
 }
-#title-top {
-    font-weight: 300;
-    font-size: 25px;
-}
-#title-best {
 
-}
+
 .quote-btn:hover {
     transform: scale(1.1);
 }
@@ -120,6 +116,68 @@
     background: -webkit-linear-gradient(white, #38495a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+#title-top {
+    font-weight: 300;
+	font-size: 25px;
+}
+    #title-top {
+    	font-size: 0;
+	}
+	#title {
+    	top: 20%;
+	}
+	#title-best {
+    	font-size: 20px;
+	}
+	#title .typewrite {
+    	font-size: 20px;
+	}
+/****************************
+ABOVE 480
+****************************/
+
+@media screen and (min-width: 481px) {
+	#title {
+    	top: 30%;
+	}
+    #title-top {
+    	font-size: 20px;
+	}
+	#title-best {
+    	font-size: 25px;
+	}
+	#title .typewrite {
+    	font-size: 25px;
+	}
+}
+
+/****************************
+ABOVE 860
+****************************/
+
+@media screen and (min-width: 861px) {
+    #title-top {
+    	font-size: 25;
+	}
+	#title-best {
+    	font-size: 30px;
+	}
+	#title .typewrite {
+    	font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+    #title-top {
+    	font-size: 30;
+	}
+	#title-best {
+    	font-size: 35px;
+	}
+	#title .typewrite {
+    	font-size: 35px;
+	}
 }
 #typer {
     border-right: .05em rgba(0,0,0,0.2);
