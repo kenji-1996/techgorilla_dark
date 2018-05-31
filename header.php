@@ -90,6 +90,10 @@
                         <span class="title hover hover-3">
                             <?php the_archive_title(); ?>
                         </span>
+                    <?php } else if (is_404()) { ?>
+                        <span class="title hover hover-3">
+                            <?php echo "Nothing is here!"; ?>
+                        </span>
                     <?php } else if (is_search()) { ?>
                         <span class="title">
                             <?php if (have_posts()) { ?>
