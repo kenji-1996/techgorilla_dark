@@ -6,14 +6,13 @@ $f3 = wp_get_nav_menu_object( 26 );
 // then echo the name of the menu
 
 ?>
-
 </div>
 <footer id="footer-area">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="row footer-links">
-                    <div class="hosing-pakages col-md-3 wow" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: ;">
+                    <div class="hosing-pakages col-md-3 hideme-footer">
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title-w"><?php echo $f1->name; ?></h4>
                             <div class="menu-hosting-pakages-container">
@@ -31,7 +30,7 @@ $f3 = wp_get_nav_menu_object( 26 );
                             </div>
                         </div>
                     </div>
-                    <div class="services-pakages col-md-3 wow " data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: ;">
+                    <div class="services-pakages col-md-3 hideme-footer">
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title-w"><?php echo $f2->name; ?></h4>
                             <div class="menu-our-services-container"> <?php /* Primary navigation */
@@ -45,7 +44,7 @@ $f3 = wp_get_nav_menu_object( 26 );
                                     //'walker' => new My_Walker_Nav_Menu()
                                 ));
                                 ?></div></div>                          </div>
-                    <div class="company-pakages col-md-3 wow " data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: ;">
+                    <div class="company-pakages col-md-3 hideme-footer">
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title-w"><?php echo $f3->name; ?></h4>
                             <div class="menu-company-container"> <?php /* Primary navigation */
@@ -59,7 +58,7 @@ $f3 = wp_get_nav_menu_object( 26 );
                                     //'walker' => new My_Walker_Nav_Menu()
                                 ));
                                 ?></div></div>                          </div>
-                    <div class="col-md-3 footer-cntct-info wow " data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: ;">
+                    <div class="col-md-3 footer-cntct-info hideme-footer">
                         <a class="footer-logo" href="#"><img style="max-width: 160px;" src="https://techgorilla.io/wp-content/uploads/2018/05/logo-white.png" alt="footer_logo"></a>
                         <div class="address">
                             Web Design, Search Engine Optimisation, Server Hosting, Mail Setup
@@ -75,6 +74,21 @@ $f3 = wp_get_nav_menu_object( 26 );
         </div>
     </div>
 </footer>
+<div class="modal fade" id="enquireModal" tabindex="-1" role="dialog" aria-labelledby="enquireModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="enquireModalLabel">Enquire</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <?php echo do_shortcode("[contact-form-7 id=\"464\" title=\"Untitled\"]"); ?>
+            </div>
+        </div>
+    </div>
+</div>
     <!-- div wrap
     <div class="dark" style="background-color:#131313;">
         <div id="copyrights">

@@ -1,0 +1,68 @@
+.sidenav-bg {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 16;
+  display: none;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  transition: background-color .5s; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 17;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-weight: 600;
+  border-right: 1px solid rgba(255, 255, 255, 0.05); }
+
+.sidenav #primary-menu ul {
+  transition: background-color .5s;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.sidenav #primary-menu ul li a {
+  font-weight: 600;
+  transition: background-color .5s;
+  border-radius: 0;
+  padding-left: 10px !important;
+  color: #999 !important; }
+
+.sidenav #primary-menu ul li ul {
+  background-color: black; }
+
+.sidenav #primary-menu ul li a:hover {
+  background-color: black;
+  color: #CCC !important; }
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #999 !important;
+  display: block;
+  transition: 0.3s; }
+
+.sidenav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #CCC !important; }
+
+.sidenav .sidenav-close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+#main {
+  transition: margin-left .5s;
+  background-color: white; }
+
+/*# sourceMappingURL=sidenav.css.map */
