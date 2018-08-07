@@ -20,27 +20,30 @@
     <?php wp_head(); ?>
 </head>
 <!-- HEADER END -->
+<div class="topnav">
 
-<!-- SIDENAV -->
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="sidenav-close">&times;</a>
-    <nav id="primary-menu" class="style-4">
-        <?php /* Primary navigation */
-        wp_nav_menu( array(
-            'menu' => 'header_menu',
-            'theme_location' => 'header_menu',
-            'depth' => 2,
-            'container' => false,
-            'menu_class' => 'nav show',
-            //Process nav menu using our custom nav walker
-            //'walker' => new My_Walker_Nav_Menu()
-        ));
-        ?>
-    </nav>
 </div>
-<div class="sidenav-bg"></div>
-<!-- SIDENAV END -->
 
+<div class="menu">
+    <div class="app-menu">
+        <?php
+        wp_nav_menu(
+            array(
+                'menu' => 'header_menu',
+                'theme_location' => 'header_menu',
+                'container' => 'nav',
+                'container_class' => '',
+                'container_id' => 'main-navbar-collapse',
+                'menu_class' => 'nav navbar-nav navbar-left',
+                'fallback_cb' => 'wp_page_menu',
+                'depth' => 2,
+                'walker' => new WP_Bootstrap_Navwalker()
+            )
+        );
+        ?>
+    </div>
+
+</div>
 <body data-phone-cc-input="1">
 <div id="main">
     <header id="header" class="header dark <?php if (is_front_page()) { echo 'header-front-page'; }else{ echo 'header-other'; } ?>">

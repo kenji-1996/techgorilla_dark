@@ -80,6 +80,40 @@ html {
 
   }
 }
+//Browser border element
+.hb-browser {
+  border: none;
+  margin-bottom: -10px;
+  z-index: 10;
+  box-shadow: 0 0px 2px rgba(0,0,0,0.3)
+}
+
+.hb-browser {
+  border: solid 1px #d2d2d2;
+  border-radius: 3px
+}
+
+.hb-browser .hb-browser-header {
+  border-bottom: solid 1px #d2d2d2;
+  background: #f6f6f6;
+  padding: 0px 10px;
+  border-radius: 3px 3px 0px 0px
+}
+
+.hb-browser .hb-browser-header .hb-menuitem {
+  border-radius: 50%;
+  background: #d2d2d2;
+  width: 10px;
+  height: 10px;
+  display: inline-block
+}
+
+.hb-browser .hb-browser-body {
+  background: #fff;
+  border-radius: 0px 0px 3px 3px;
+  padding: 0px
+}
+
 .modal-title {
   color: #000;
 }

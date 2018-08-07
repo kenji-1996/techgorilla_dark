@@ -2,6 +2,7 @@
 /**
  * Style and script setup
  */
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 //Include styles
 function techgorilla_styles() {
     wp_enqueue_style( 'misc', get_template_directory_uri() . '/assets/css/misc.min.css' );

@@ -2,6 +2,35 @@ window.sr = new ScrollReveal();
 (function($) {
     $( document ).ready(function() {
         "use strict"; // Start of use strict
+        var scrollInital = $(window).scrollTop();
+        var windowWInitial = $(window).width();
+        if (scrollInital >= 2 && windowWInitial >= 960 && $(".sidenav-open").is(":visible")) {
+
+            $("#header").addClass("sticky-header");
+        }else{
+            $('#primary-menu ul li.menu-item-has-children').hover(function() {
+                $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
+            }, function() {
+                $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
+            });
+            $("#header").removeClass("sticky-header");
+        }
+        if ($('').find('.submenuClass').length > 0) {
+            $(this).toggleClass('sf-js-enabled');
+        }
+        /*
+        $('#primary-menu ul li.menu-item-has-children').click(function () {
+
+        })
+        if($('#primary-menu ul li.menu-item-has-children').children()
+
+
+
+            && $(".sidenav-open").is(":visible")) {
+            $('#menu-item-365').find('a').attr('data-toggle', 'modal');
+            $('#menu-item-365').find('a').attr('data-target', '#myModal');
+        }*/
+
         $(window).scroll(function() {
             var scroll = $(window).scrollTop();
             var windowW = $(window).width();
@@ -12,27 +41,39 @@ window.sr = new ScrollReveal();
                 $("#header").removeClass("sticky-header");
             }
         });
-        $('#primary-menu ul li.menu-item-has-children').hover(function() {
-            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
-        }, function() {
-            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
-        });
 
-        $(".sidenav-open").click(function (ev) {
-            document.getElementById("mySidenav").style.width = "250px";
-            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-            $(".sidenav-bg").fadeIn();
-            $(".sidenav-bg").fadeIn();
-        });
-        $(".sidenav-close").click(function (ev) {
-            document.getElementById("mySidenav").style.width = "0";
-            $(".sidenav-bg").fadeOut();
-        });
 
-        $(".sidenav-bg").click(function (ev) {
-            document.getElementById("mySidenav").style.width = "0";
-            $(".sidenav-bg").fadeOut();
+
+        /**
+         * Sidenav menu smooth animation
+         */
+        var jMenu = $('.menu');
+        function toggleClassMenu() {
+            myMenu.classList.add("menu--animatable");
+            if(!myMenu.classList.contains("menu--visible")) {
+                myMenu.classList.add("menu--visible");
+            } else {
+                myMenu.classList.remove('menu--visible');
+            }
+        }
+        $(document).bind("mouseup touchend", function (e) {
+            if(jMenu.is(e.target)) {
+                myMenu.classList.remove('menu--visible');
+            }
         });
+        function OnTransitionEnd() {
+            myMenu.classList.remove("menu--animatable");
+        }
+
+        var myMenu = document.querySelector(".menu");
+        var oppMenu = document.querySelector(".sidenav-open");
+        myMenu.addEventListener("transitionend", OnTransitionEnd, false);
+        oppMenu.addEventListener("click", toggleClassMenu, false);
+        /**
+         * Sidenav end
+         */
+
+
         var TxtType = function(el, toRotate, period) {
             this.toRotate = toRotate;
             this.el = el;

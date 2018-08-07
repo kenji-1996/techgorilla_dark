@@ -1,8 +1,8 @@
 <?php
 
-$f1 = wp_get_nav_menu_object( 24 );
-$f2 = wp_get_nav_menu_object( 25 );
-$f3 = wp_get_nav_menu_object( 26 );
+$f1 = wp_get_nav_menu_object( 19 );
+$f2 = wp_get_nav_menu_object( 20 );
+$f3 = wp_get_nav_menu_object( 21 );
 // then echo the name of the menu
 
 ?>
@@ -84,50 +84,50 @@ $f3 = wp_get_nav_menu_object( 26 );
                 </button>
             </div>
             <div class="modal-body">
-                <?php echo do_shortcode("[contact-form-7 id=\"464\" title=\"Untitled\"]"); ?>
+                <?php echo do_shortcode("[contact-form-7 id='364' title='Enquire']"); ?>
             </div>
         </div>
     </div>
 </div>
-    <!-- div wrap
-    <div class="dark" style="background-color:#131313;">
-        <div id="copyrights">
+<!-- div wrap
+<div class="dark" style="background-color:#131313;">
+    <div id="copyrights">
 
-            <div class="container clearfix">
+        <div class="container clearfix">
 
-                <div class="col_two_third">
+            <div class="col_two_third">
 
-                    <div class="copyrights-menu copyright-links clearfix">
-                        <a href="/cart.php?gid=1">Web Hosting</a>
-                        <a href="mailto:sales@techgorilla.io">sales@techgorilla.io</a>
-                        <a href="tel:+61-416-723-376">+61 416 723 376</a>
-                        <a href="/affiliates.phps">Affiliates</a>
-                        <a href="/clientarea.php">Login</a>
-                        <a href="/register.php">Register</a>
-                    </div>
-
-                    Copyrights © 2017 by TechGorilla<br>
-                    <div class="copyright-links"><a href="https://techgorilla.io/terms-of-service">Terms of Service</a></div>
+                <div class="copyrights-menu copyright-links clearfix">
+                    <a href="/cart.php?gid=1">Web Hosting</a>
+                    <a href="mailto:sales@techgorilla.io">sales@techgorilla.io</a>
+                    <a href="tel:+61-416-723-376">+61 416 723 376</a>
+                    <a href="/affiliates.phps">Affiliates</a>
+                    <a href="/clientarea.php">Login</a>
+                    <a href="/register.php">Register</a>
                 </div>
 
-                <div class="col_one_third col_last tright">
-                    <div class="widget subscribe-widget clearfix">
-                        <form class="nobottommargin" action="https://www.mivocloud.com/plugins/cama_subscriber/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="3kkWGMXPiaATPQc9yFTJEfUOp2vu1bmf+mN4tB+J0XgoNaxM5MbvxsMtg2i4XbyI2Y43ycTROAapg1Vq10fiiw==">
-                            <input type="hidden" name="group_id" value="1">
-                            <div class="input-group divcenter">
-                                <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
-                                <input type="email" id="widget-subscribe-form-email" name="email" class="form-control required email" placeholder="E-mail">
-                                <span class="input-group-btn">
-                                        <button class="btn btn-success" style="background-color: #3EC303;" type="submit">Subscribe</button>
-                                    </span>
-                            </div>
-                        </form>                        </div>
-                </div>
+                Copyrights © 2017 by TechGorilla<br>
+                <div class="copyright-links"><a href="https://techgorilla.io/terms-of-service">Terms of Service</a></div>
+            </div>
 
+            <div class="col_one_third col_last tright">
+                <div class="widget subscribe-widget clearfix">
+                    <form class="nobottommargin" action="https://www.mivocloud.com/plugins/cama_subscriber/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="3kkWGMXPiaATPQc9yFTJEfUOp2vu1bmf+mN4tB+J0XgoNaxM5MbvxsMtg2i4XbyI2Y43ycTROAapg1Vq10fiiw==">
+                        <input type="hidden" name="group_id" value="1">
+                        <div class="input-group divcenter">
+                            <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
+                            <input type="email" id="widget-subscribe-form-email" name="email" class="form-control required email" placeholder="E-mail">
+                            <span class="input-group-btn">
+                                    <button class="btn btn-success" style="background-color: #3EC303;" type="submit">Subscribe</button>
+                                </span>
+                        </div>
+                    </form>                        </div>
             </div>
 
         </div>
-    </div>-->
+
+    </div>
+</div>-->
 
 <!-- END Footer -->
 

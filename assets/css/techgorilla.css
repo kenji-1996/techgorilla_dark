@@ -1554,6 +1554,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav {
     margin: 7.5px -15px;
 }
+
+#main-navbar-collapse .navbar-nav {
+    margin: 0;
+    width: 100%;
+    font-weight: 400;
+    font-family: 'Raleway',sans-serif;
+}
+
+#main-navbar-collapse .navbar-nav .nav-link {
+    padding-left: 10px;
+    font-weight: 400;
+    font-family: 'Raleway',sans-serif;
+}
+
 .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1715,13 +1729,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     .navbar-left {
         float: left !important;
     }
-    .navbar-right {
-        float: right !important;
-        margin-right: -15px;
-    }
-    .navbar-right ~ .navbar-right {
-        margin-right: 0;
-    }
+
 }
 .navbar-default {
     background-color: #f8f8f8;
